@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Best Tennis Academy in Pune</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="x-icon" href="Screenshot_20211123-133908_Drive (1).ico">
+  <link rel="shortcut icon" type="image/x-icon" href="Screenshot_20211123-133908_Drive (1).ico">
+  <link rel="shortcut icon" href="Screenshot_20211123-133908_Drive (1).ico" type="image/x-icon">
+  <link rel="Shortcut Icon" href="Screenshot_20211123-133908_Drive (1).ico" type="image/x-icon">
+</head>
+
+<body>
+  <header class="header">
+    <img src="img\Screenshot_20211123-133908_Drive (1).jpg" alt="Elite Lawn Tennis Logo" class="logo" />
+
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li><a class="navbar-link" href="#">Home</a></li>
+        <li><a class="navbar-link" href="#">About</a></li>
+        <li><a class="navbar-link" href="#">Gallery</a></li>
+        <li><a class="navbar-link" href="#">Video</a></li>
+        <li><a class="navbar-link" href="#">Blogs</a></li>
+        <li><a class="navbar-link" href="#">Special Offers</a></li>
+        <li><a class="navbar-link" href="#">Testimonials</a></li>
+        <div class="contact-us-btn">
+          <button class="btn" onclick="parent.location
+           = 'https://theelitetennisacademy.com/#register'">Contact Us</button>
+        </div>
+      </ul>
+    </nav>
+    <div class="mobile-navbar-btn">
+      <ion-icon name="menu-outline" class="mobile-nav-icon" onclick="show_hide()"></ion-icon>
+      <ion-icon name="close-outline" class="mobile-nav-icon" onclick="show()"></ion-icon>
+    </div>
+  </header>
+
+  <!-- ======================================== 
+          Our Main Hero Section Start  
+    ========================================  -->
+  <main>
+    <section class="section-hero">
+
+      <!-- two headings -->
+      <div class="heading" id="heading">
+        <h1 class="heading-1" id="heading-1">Elite</h1>
+        <h1 class="heading-2" id="heading-2">Tennis Academy</h1>
+      </div>
+
+      <div class="message" id="message"> Address: New Airport Road, Near Dorabjee Mall, Viman Nagar, Pune, Maharashtra
+        411032
+        <br>
+        <br>
+        Phone no: 8007766719
+        <br>
+        <br>
+        Timing for Kids :
+        <br>
+        -> Morning: 9am
+        <br>
+        -> Evening: 4pm, 5pm, 6pm
+
+        <br>
+        <br>
+        Timing for adults :
+        <br>
+        -> Morning: 7am to 8am
+        <br>
+        -> Evening: 7pm to 8pm
+      </div>
+
+      <div class="image" id="image">
+        <img src="img/hero-removebg-preview.png" alt="">
+      </div>
+
+
+    </section>
+
+    <!-- --------------------------------------------------------------------------------------- -->
+
+    <!-- about section start  -->
+    <section class="about" id="about">
+      <p class="blog-title"><strong>About Us</strong></p>
+      <div class="row">
+        <div class="images">
+          <img src="img/PICS ART (1).png" alt="">
+        </div>
+
+        <div id="content">
+          <h3>The Best Tennis Academy in Pune</h3>
+          <p>We are a small tennis academy and our coaching team specialises in offering the most
+            personalised training for each tennis player. Our director is always on court to monitor
+            each player’s development.</p>
+
+          <p> Timing for Kids to attend the sessions is 9am in morning and 4pm, 5pm & 6pm in evening. And for
+            adults
+            the timing for morning and evening sessions is 7pm to 8 pm.</p>
+          <a href="aboutus.html"><button class="btn">Learn More</button></a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- Gallery Section starts -->
+    <section id="gallery">
+      <p class="blog-title"><strong>Elite Gallery</strong></p>
+      <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 9</div>
+          <img src="img/PICS ART (1).png" width="100%" height="600">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 9</div>
+          <img src="img/PICS ART2.png" width="100%" height="600">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 9</div>
+          <img src="img/pics art3.png" width="100%" height="600">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 9</div>
+          <img src="img/pics art4.png" width="100%" height="600">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 9</div>
+          <img src="img/Screenshot_20221209-233502_Instagram (2).jpg" width="100%" height="600">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 9</div>
+          <img src="img/IMG-20220901-WA0006 (2).jpg" width="100%" height="600px">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">7 / 9</div>
+          <img src="img/unnamed (1).jpg" width="100%" height="600">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">8 / 9</div>
+          <img src="img/unnamed.jpg" width="100%" height="600">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">9 / 9</div>
+          <img src="img/2021-09-21.jpg" width="100%" height="600">
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <!-- Gallery Section ends -->
+
+    <!-- Video section starts -->
+    <p class="blog-title"><strong>Elite Videos</strong></p>
+
+    <section class="section video" id="video" aria-label="video">
+      <div class="container">
+
+        <div class="video-card has-before has-bg-image" style="background-image: url('VID-20221208-WA0009.mp4')">
+
+          <h2 class="h2 card-title"></h2>
+
+          <a href="#" class="btn-link has-before"></a>
+          <video width="900" height="900" controls>
+            <source src="img/VID-20221208-WA0009.mp4" type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+    </section>
+    <!-- Video section ends -->
+    <!-- Blog section starts -->
+
+    <section id="Blogs">
+
+      <p class="blog-title"><strong>Elite Blogs</strong></p>
+      <div class="container">
+        <div class="grid">
+          <div class="card">
+            <br>
+            <br>
+            <div class="card_img">
+              <img src="img/raf.jpg" alt="">
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="card_body">
+              <h2 class="card_title">Rafa faces 2023 challenge</h2>
+              <br>
+              <p>Rafael Nadal was not in his usual self this week in Turin at the World Tour Finals. The super
+                fast
+                conditions really never suit his game and the altitude didn’t help things either. Rafa
+                didn’t
+                really
+                look too Rafa like at all. His performances had prompted the Tennis Podcast to tweet about
+                his
+                future career.</p>
+              <p class="card_author" id="ravi">by <a href="#" class="author_link">Ravi Devarakonda</a></p>
+              <a href="blog1.html" class="read_more" id="ravi-article">Read article</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_img">
+              <img src="img/b2.jpg" alt="">
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="card_body">
+              <h2 class="card_title">Tennis Is a Perfect Way to Relax After Studying</h2>
+              <p>Tennis remains one of the most popular hobbies among many students. But why do so many young
+                learners prefer playing tennis after the lessons? What is special about this kind of sport?
+                Discover the list of advantages of playing tennis and why it is a great way to relax after
+                your
+                studies.</p>
+              <p class="card_author">by <a href="#" class="author_link">Santosh Patil</a></p>
+              <a href="blog2.html" class="read_more">Read article</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_img">
+              <img src="img/b3.jpg" alt="">
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="card_body">
+              <h2 class="card_title">Tennis In India: From Past to Present</h2>
+              <p>Over the past few decades, the sports sector in India has gone through a massive transition
+                by
+                evolving from being a country predominantly dedicated to following Cricket to becoming a
+                multi-sport country. Sports like Football, Badminton, Basketball, etc. are changing the face
+                of
+                the Indian Sports Industry.</p>
+              <p class="card_author" id="amol">by <a href="#" class="author_link">Amol Kamble</a></p>
+              <a href="blog3.html" class="read_more" id="amol-article">Read article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blogs section ends -->
+
+    <!-- plan section starts  -->
+    <br>
+    <br>
+    <section class="plan" id="plan">
+      <p class="blog-title"><strong>Christmas and New Year Offers!</strong></p>
+      <p class="imp-message">To avail the offers, please contact <a href="#register">Elite Tennis Academy</a> on or
+        before 10
+        <sup>th</sup>
+        January, 2023
+      </p>
+      <br>
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3 class="title">Basic</h3>
+          <h3 class="price">15% <span>discount</span></h3>
+          <h3 class="month">1 month</h3>
+          <ul>
+            <strong>FOR</strong>
+            <li><i class="fas fa-check"></i>Beginners</li>
+            <li><i class="fas fa-check"></i>Intermediate</li>
+            <li><i class="fas fa-check"></i>Advanced</li>
+            <!-- <li><i class="fas fa-check"></i>Training</li> -->
+            <!-- <li><i class="fas fa-check"></i>protein powder</li> -->
+          </ul>
+          <a href="#"><button class="btn">Valid till 10<sup>th</sup> JAN 2023</button></a>
+        </div>
+
+        <div class="box">
+          <h3 class="title">Standard</h3>
+          <h3 class="price">5% <span>discount</span></h3>
+          <h3 class="month">3 months</h3>
+          <ul>
+            <strong>FOR</strong>
+            <li><i class="fas fa-check"></i>Beginners</li>
+            <li><i class="fas fa-check"></i>Intermediate</li>
+            <li><i class="fas fa-check"></i>Advanced</li>
+            <!-- <li><i class="fas fa-check"></i>training</li>
+                  <li><i class="fas fa-check"></i>protein powder</li> -->
+          </ul>
+          <a href="#"><button class="btn">Valid till 10<sup>th</sup> JAN 2023</button></a>
+        </div>
+
+        <div class="box">
+          <h3 class="title">Premium</h3>
+          <h3 class="price">10% <span>discount</span></h3>
+          <h3 class="month">6 months</h3>
+          <ul>
+            <strong>FOR</strong>
+            <li><i class="fas fa-check"></i>Beginners</li>
+            <li><i class="fas fa-check"></i>Intermediate</li>
+            <li><i class="fas fa-check"></i>Advanced</li>
+            <!-- <li><i class="fas fa-check"></i>training</li>
+                  <li><i class="fas fa-check"></i>protein powder</li> -->
+          </ul>
+          <a href="#"><button class="btn">Valid till 10<sup>th</sup> JAN 2023</button></a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- plan section ends -->
+
+    <section class="testimonial" id="testimonial">
+      <p class="blog-title"><strong>Testimonial Section</strong></p>
+      <div class="box-container">
+
+        <div class="box">
+          <div class="box-image">
+            <img src="img/mandar.jpg" alt="" width="100%" height="auto">
+          </div>
+          <div class="name">
+            <h1> Mandar Gyan </h1>
+            <p> Software<span> Engineer</span></p>
+          </div>
+          <p> " Very welcoming,warm and professinal managment and coaches. when you enroll at The Elite Tennis
+            academy,you
+            are assured personal attention,expert coaching at all levels and flexibility of shedule. I and both
+            my
+            daughters play at Elite tennis academy and would recommended the same to others."
+
+
+            <br>
+            <br>
+            <br>
+
+            ⭐ ⭐ ⭐ ⭐ ⭐
+          </p>
+        </div>
+
+        <div class="box">
+          <div class="box-image">
+            <img src="img/Vaidehi khatri.jpg" alt="" width="100%" height="auto">
+          </div>
+          <div class="name">
+            <h1>Vaidehi khatri</h1>
+            <p>Student <span></span>
+            </p>
+          </div>
+          <p> "Tennis is always very special to me. And this place always makes me give my best and keep trying.
+            This is
+            only possible when you have really humble and hardworking coaches. Great job guys I wish we could
+            have cover
+            courts soon. so that we don't miss on my classes because of rains."
+            <br>
+            <br>
+            <br>
+
+            ⭐ ⭐ ⭐ ⭐ ⭐
+          </p>
+        </div>
+        <div class="box" id="vibha">
+          <div class="box-image">
+            <img src="img/Vibha chaturvedi.jpg" alt="" width="100%" height="auto">
+          </div>
+          <div class="name">
+            <h1>Vibha chaturvedi</h1>
+            <p>Lecturer, <span>Symbiosis Law School, Pune </span>
+            </p>
+          </div>
+          <p> "AITA level coaches giving personal eyes attention- we all know how important it is an what it
+            translate
+            into for our kids. that's what Elite is all about, Coaches are train dedicated and preservant.
+            location is
+            perfect and convenient Not just for kids it is a perfect place but also for adults to learn the
+            amazing games of tennis".
+            <br>
+            <br>
+
+            ⭐ ⭐ ⭐ ⭐ ⭐
+          </p>
+        </div>
+    </section>
+
+    <!-- register section starts  -->
+
+    <section class="register" id="register">
+
+      <p class="blog-title"><strong>Contact Us</strong></p>
+
+      <form action="https://formspree.io/f/xrgvzdbr" method="POST">
+
+        <div class="inputBox">
+          <input type="text" name="First Name" id="first_name" placeholder="Your first name" required>
+          <input type="text" name="Last Name" id="last_name" placeholder="Your last name" required>
+          <input type="text" name="City" id="city" placeholder="Your City" required>
+        </div>
+        <div class="inputBox">
+          <input type="email" name="Email" id="email" placeholder="Your email" required>
+          <input type="number" name="Phone" id="number" placeholder="Your number" required>
+        </div>
+        <textarea name="Message" placeholder="Your Message" required></textarea>
+        <!-- <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea> -->
+
+        <input type="submit" class="btn" value="Register">
+      </form>
+
+    </section>
+
+
+    <!-- register section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      Created by <a href="#">The Domain Dude</a> | All Rights Reserved.
+    </section>
+
+    <!-- footer section ends -->
+  </main>
+
+  <!-- ======================================== 
+          Our JavaScript Section Start  
+    ========================================  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+  <script>
+    $(".testmonial_slider_area").owlCarousel({
+      autoplay: true,
+      slideSpeed: 1000,
+      items: 3,
+      loop: true,
+      nav: true,
+      navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>'],
+      margin: 30,
+      dots: true,
+      responsive: {
+        320: {
+          items: 1
+        },
+        767: {
+          items: 2
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+
+    });
+  </script>
+
+  <script>
+
+
+  </script>
+  <!-- jquery cdn link  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+  <script src="js/scripty.js"></script>
+  <!-- <script src="script.js"></script> -->
+  <script src="js/aboutus.js"></script>
+</body>
+
+</html>
